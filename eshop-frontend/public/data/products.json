@@ -1,0 +1,58 @@
+[
+  {
+    "productId": "302923",
+    "title": "Crocks - Blue",
+    "price": 24.99,
+    "description":"Get ready for the sun with these Classic Clog sandals from Crocs. In a ice blue colourway, they're made with a moulded synthetic upper with perforated holes across the top for breathable wear. With a contoured footbed and adjustable heel strap for a secure, comfy fit these sandals are finished with grippy tread and the Crocs logo to the strap.",
+    "image": ["assets/crocs1.jpg", "assets/crocs2.jpg", "assets/crocs3.jpg", "assets/crocs4.jpg"]
+  },
+  {
+    "productId": "678934",
+    "title": "Flip Flops - White",
+    "price": 5.99,
+    "description":"These flip flops from Havaianas feature a patterned rubber thong with an embossed brand logo and a Brazilian Flag and have a stiped cushioned sole, perfect for around the pool.",
+    "image": ["assets/ff1.jpg", "assets/ff2.jpg", "assets/ff3.jpg", "assets/ff4.jpg"]
+  },
+  {
+    "productId": "868604",
+    "title": "Nike - Navy",
+    "price": 19.99,
+    "description":"Inspired by the Air Max 90, these juniors' Air Max 2090 trainers from Nike propel an iconic look into the future. In a Obsidian colourway with black and white details, these sneakers have a breathable textile upper with synthetic overlays for durable support. They feature design lines inspired by Tinker Hatfield's OG icon, as well as a secure lace up fastening for a locked-in fit.",
+    "image": ["assets/nikenavy1.jpg", "assets/nikenavy2.jpg", "assets/nikenavy3.jpg", "assets/nikenavy4.jpg"]
+  },
+  {
+    "productId": "778532",
+    "title": "Nike - Black",
+    "price": 49.99,
+    "description":"Past meets present with these infants' Air Max 2090 trainers from Nike. Exclusive to JD, these sneaks have a breathable mesh upper in a Obsidian and black colourway. With translucent panels and synthetic detailing, they feature a secure lace up fastening and a woven heel pull for easy on and off. These trainers have a lightweight foam midsole with a Max Air unit in the heel for cushioning they can see as well as feel. Finished with a grippy tread and the iconic Swoosh to the sidewalls.",
+    "image": ["assets/nikeblack1.jpg","assets/nikeblack2.jpg","assets/nikeblack3.jpg","assets/nikeblack4.jpg"]
+  },
+  {
+    "productId": "539935",
+    "title": "Puma - White",
+    "price": 24.99,
+    "description":" Court Star trainers from PUMA. These low-profile sneaks have a smooth, leather upper in a fresh white colourway. They feature a tonal lace up fastening and a padded ankle collar for a snug, comfy feel. Sat on a lightweight foam midsole for cushioning, these sneaks are finished up with a grippy rubber tread, grey Formstrip to the sidewalls and a metallic PUMA Court Star wordmark.",
+    "image": ["assets/pumawhite1.jpg","assets/pumawhite2.jpg","assets/pumawhite3.jpg","assets/pumawhite4.jpg"]
+  },
+  {
+    "productId": "976643",
+    "title": "Adidas - White",
+    "price": 54.99,
+    "description":"Trainers from adidas Originals. The Superstar was released way back in 1970 and quickly evolved into one of the most popular shoes around. Now five decades later, this classic comes in a white colourway with black accenting and features a leather upper with all-over micro perforations for breathable wear every step of the way. ",
+    "image": ["assets/adidaswhite1.jpg","assets/adidaswhite2.jpg","assets/adidaswhite3.jpg","assets/adidaswhite4.jpg"]
+  },
+  {
+    "productId": "707462",
+    "title": "Adidas - Green",
+    "price": 30.99,
+    "description":"Back from '76, these men's Munchen trainers from adidas Originals add a retro style to your collection. Sat on a low-riding gum midsole for a comfy step, its grippy outsole provides essential traction when you step to the streets.",
+    "image": ["assets/adidasgreen1.jpg","assets/adidasgreen2.jpg", "assets/adidasgreen3.jpg","assets/adidasgreen4.jpg"]
+  },
+  {
+    "productId": "742675",
+    "title": "Adidas - Black",
+    "price": 18.99,
+    "description":" trainers from adidas Originals. In a Black colourway, these trainers have a breathable knit upper with the legendary heel cage for support. They come with adidas' midfoot torsion system to keep you stable, and feature a contrasting EVA midsole for lightweight cushioning when you step out.",
+    "image": ["assets/adidasblack1.jpg","assets/adidasblack2.jpg","assets/adidasblack3.jpg","assets/adidasblack4.jpg"]
+  }
+]
