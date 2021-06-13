@@ -39,23 +39,24 @@ export const StyledPrice = styled.h2`
 export const StyledDescription = styled.p`
   width: 90%;
   padding-right: 5px;
+  align-self: flex-end;
 `;
 
 export const StyledContent = styled.div`
   display: flex;
   flex-direction: column;
-  /* @media only screen and (max-width: 850px) {
-    flex-direction: column;
-  } */
 `;
 
 export const StyledCarousel = styled(Carousel)`
   align-self: center;
   text-decoration: none;
   height: 30%;
-  max-width: 70%;
+  max-width: 55%;
   min-width: 325px;
   padding-right: 25px;
+  @media only screen and (max-width: 850px) {
+    max-width: 100%;
+  }
 `;
 
 export const StyledButton = styled.button`

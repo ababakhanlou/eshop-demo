@@ -57,25 +57,23 @@ function ItemPage() {
     <StyledItemPage>
       <StyledLink to="/">{"<"} Back to store</StyledLink>
       <h1>{item.title}</h1>
-      <StyledItemActions>
-        <StyledPrice>£{item.price}</StyledPrice>
-
-        {item.availQty === 0 || !inStock ? (
-          <StyledOutOfStock>OUT OF STOCK</StyledOutOfStock>
-        ) : (
-          <StyledButton
-            onClick={(e) => {
-              e.preventDefault();
-              addToBasket(item);
-            }}
-          >
-            Add to Basket
-          </StyledButton>
-        )}
-      </StyledItemActions>
-
       <StyledContent>
-        <StyledDescription>{item.description}</StyledDescription>
+        <StyledItemActions>
+          <StyledPrice>£{item.price}</StyledPrice>
+          {item.availQty === 0 || !inStock ? (
+            <StyledOutOfStock>OUT OF STOCK</StyledOutOfStock>
+          ) : (
+            <StyledButton
+              onClick={(e) => {
+                e.preventDefault();
+                addToBasket(item);
+              }}
+            >
+              Add to Basket
+            </StyledButton>
+          )}
+          <StyledDescription>{item.description}</StyledDescription>
+        </StyledItemActions>
         <StyledCarousel showThumbs={false} infiniteLoop={true}>
           {images.map((img, idx) => (
             <div key={idx}>
