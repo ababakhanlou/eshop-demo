@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "install": "cd eshop-backend && npm install && cd eshop-frontend && npm install",
+    "install": "cd eshop-backend && npm install && cd ../eshop-frontend && npm install",
     "start-back": "cd eshop-backend && npm start",
     "start-front": "cd eshop-frontend && npm start",
     "start": "concurrently \"npm run start-back\" \"npm run start-front",
