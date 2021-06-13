@@ -35,6 +35,7 @@ function Checkout() {
       });
     };
     calcStock();
+    // eslint-disable-next-line
   }, [basket]);
 
   const inStockCheck = async (id) => {

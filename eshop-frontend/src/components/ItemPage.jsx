@@ -40,6 +40,7 @@ function ItemPage() {
     if (item.availQty > 0) {
       setInStock(true);
     }
+    // eslint-disable-next-line
   }, [basketCount]);
 
   const dispatch = useDispatch();
