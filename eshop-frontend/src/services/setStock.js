@@ -3,7 +3,7 @@ import { getItemById } from "./getData";
 const hostname =
   process.env.NODE_ENV !== "production"
     ? "http://localhost:3001"
-    : "https://eshop-demo-backend.herokuapp.com/";
+    : "https://eshop-demo-backend.herokuapp.com";
 
 export async function updateStock(id, updQty) {
   const item = await getItemById(id);
