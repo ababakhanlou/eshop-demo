@@ -1,5 +1,10 @@
 import { getItemById } from "./getData";
 
+const hostname =
+  process.env.NODE_ENV !== "production"
+    ? "http://localhost:3001"
+    : "https://eshop-demo-backend.herokuapp.com/";
+
 export async function updateStock(id, updQty) {
   const item = await getItemById(id);
   const itemQty = item.availQty;
@@ -9,7 +14,7 @@ export async function updateStock(id, updQty) {
     return false;
   }
 
-  const URL = `http://localhost:3001/stock/update/${id}`;
+  const URL = `${hostname}/stock/update/${id}`;
 
   const headers = new Headers();
   headers.append("Content-Type", "application/json");

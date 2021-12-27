@@ -1,5 +1,10 @@
+const hostname =
+  process.env.NODE_ENV !== "production"
+    ? "http://localhost:3001"
+    : "https://eshop-demo-backend.herokuapp.com/";
+
 export async function getStock() {
-  const response = await fetch("http://localhost:3001/stock", {
+  const response = await fetch(`${hostname}/stock`, {
     method: "GET",
     headers: {
       Accept: "application/json",

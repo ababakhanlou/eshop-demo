@@ -6,6 +6,7 @@
     "install": "cd eshop-backend && npm install && cd ../eshop-frontend && npm install",
     "start-back": "cd eshop-backend && npm start",
     "start-front": "cd eshop-frontend && npm start",
+    "start-front-prod": "cd eshop-frontend && npm start NODE_ENV='production'",
     "start-all": "concurrently \"npm run start-back\" \"npm run start-front",
     "start": "cd eshop-backend && npm start",
     "build": "cd eshop-frontend && npm run build"
