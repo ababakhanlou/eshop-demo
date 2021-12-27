@@ -9,7 +9,7 @@
     "start-front-prod": "cd eshop-frontend && npm start NODE_ENV='production'",
     "start-all": "concurrently \"npm run start-back\" \"npm run start-front",
     "start": "cd eshop-backend && npm start",
-    "build": "cd eshop-frontend && npm run build"
+    "build": "cd eshop-frontend && npm run build NODE_ENV='production'"
   },
   "author": "",
   "license": "ISC",
